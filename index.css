@@ -1,0 +1,10 @@
+body {
+    align-content: center;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10em;
+    color: blue;
+}
