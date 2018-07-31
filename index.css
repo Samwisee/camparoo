@@ -1,32 +1,60 @@
 body {
-    align-content: center;
     width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
-h1 {
-    text-align: center;
+.container {
+    height: 100%;
+    background-image: url('./images/main.jpeg');
+}
+
+.title {
+    position: sticky;
+    width: 100%;
     font-size: 10em;
-    color: blue;
+    color: #4CAF50;
+    align-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 1em 0 1em 0;
+}
+
+.find {
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.offer {
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 div button {
-    width: 100%;
+    display: flex;
+    width: 20%;
+    border: 1em;
+    margin: 1em;
+    justify-content: center;
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: #4CAF50;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     width: 25%;
 }
 
 button:hover {
-    background-color: white; 
+    background-color: lightgray; 
     color: #4CAF50;
-    border: #4CAF50;
+    border: 1px #4CAF50;
 }
